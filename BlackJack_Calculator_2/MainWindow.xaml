@@ -1,0 +1,104 @@
+﻿<Window x:Class="BlackJack_Calculator_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BlackJack_Calculator_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="701.75" Width="1113" Background="#FF486AFF">
+    <Grid>
+        <Label x:Name="lblDealer1" Content="Selecciona" HorizontalAlignment="Left" Height="28" Margin="10,29,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label x:Name="lblDealer2" Content="carta del" HorizontalAlignment="Left" Height="28" Margin="10,57,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label x:Name="lblDealer3" Content="dealer:" HorizontalAlignment="Left" Height="28" Margin="10,85,0,0" VerticalAlignment="Top" Width="74"/>
+        <Button x:Name="btnDealerAs" Content="As" HorizontalAlignment="Left" Height="84" Margin="88,13,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnDealerAs_Click"/>
+        <Button x:Name="btnDealer2" Content="2" HorizontalAlignment="Left" Height="84" Margin="174,13,0,0" VerticalAlignment="Top" Width="80" FontSize="24" Click="BtnDealer2_Click"/>
+        <Button x:Name="btnDealer3" Content="3" HorizontalAlignment="Left" Height="84" Margin="259,13,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnDealer3_Click"/>
+        <Button x:Name="btnDealer4" Content="4" HorizontalAlignment="Left" Height="84" Margin="344,13,0,0" VerticalAlignment="Top" Width="80" FontSize="24" Click="BtnDealer4_Click"/>
+        <Button x:Name="btnDealer5" Content="5" HorizontalAlignment="Left" Height="84" Margin="429,13,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnDealer5_Click"/>
+        <Button x:Name="btnDealer6" Content="6" HorizontalAlignment="Left" Height="84" Margin="515,13,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnDealer6_Click"/>
+        <Button x:Name="btnDealer7" Content="7" HorizontalAlignment="Left" Height="84" Margin="601,13,0,0" VerticalAlignment="Top" Width="80" FontSize="24" Click="BtnDealer7_Click"/>
+        <Button x:Name="btnDealer8" Content="8" HorizontalAlignment="Left" Height="84" Margin="685,13,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnDealer8_Click"/>
+        <Button x:Name="btnDealer9" Content="9" HorizontalAlignment="Left" Height="84" Margin="771,13,0,0" VerticalAlignment="Top" Width="80" FontSize="24" Click="BtnDealer9_Click"/>
+        <Button x:Name="btnDealer10" Content="10" HorizontalAlignment="Left" Height="84" Margin="856,13,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnDealer10_Click"/>
+        <Label x:Name="lblPlayer1" Content="Selecciona" HorizontalAlignment="Left" Height="28" Margin="10,146,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label x:Name="lblPlayer2" Content="carta del" HorizontalAlignment="Left" Height="28" Margin="10,174,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label x:Name="lblPlayer3" Content="jugador:" HorizontalAlignment="Left" Height="28" Margin="10,202,0,0" VerticalAlignment="Top" Width="74"/>
+        <Button x:Name="btnPlayerAs" Content="As" HorizontalAlignment="Left" Height="74" Margin="88,101,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnPlayerAs_Click"/>
+        <Button x:Name="btnPlayer2" Content="2" HorizontalAlignment="Left" Height="74" Margin="174,101,0,0" VerticalAlignment="Top" Width="80" FontSize="24" Click="BtnPlayer2_Click"/>
+        <Button x:Name="btnPlayer3" Content="3" HorizontalAlignment="Left" Height="74" Margin="259,101,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnPlayer3_Click"/>
+        <Button x:Name="btnPlayer4" Content="4" HorizontalAlignment="Left" Height="74" Margin="344,101,0,0" VerticalAlignment="Top" Width="80" FontSize="24" Click="BtnPlayer4_Click"/>
+        <Button x:Name="btnPlayer5" Content="5" HorizontalAlignment="Left" Height="74" Margin="429,101,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnPlayer5_Click"/>
+        <Button x:Name="btnPlayer6" Content="6" HorizontalAlignment="Left" Height="74" Margin="515,101,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnPlayer6_Click"/>
+        <Button x:Name="btnPlayer7" Content="7" HorizontalAlignment="Left" Height="74" Margin="601,101,0,0" VerticalAlignment="Top" Width="80" FontSize="24" Click="BtnPlayer7_Click"/>
+        <Button x:Name="btnPlayer8" Content="8" HorizontalAlignment="Left" Height="74" Margin="685,101,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnPlayer8_Click"/>
+        <Button x:Name="btnPlayer9" Content="9" HorizontalAlignment="Left" Height="74" Margin="771,101,0,0" VerticalAlignment="Top" Width="80" FontSize="24" Click="BtnPlayer9_Click"/>
+        <Button x:Name="btnPlayer10" Content="10" HorizontalAlignment="Left" Height="74" Margin="856,101,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnPlayer10_Click"/>
+        <Label x:Name="lblCartasDealer" Content="Cartas del" HorizontalAlignment="Left" Height="29" Margin="14,387,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label x:Name="lblCartasDealer2" Content="dealer:" HorizontalAlignment="Left" Height="29" Margin="14,431,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label x:Name="lblCartasPlayer" Content="Cartas del" HorizontalAlignment="Left" Height="30" Margin="18,495,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label x:Name="lblCartasPlayer2" Content="jugador:" HorizontalAlignment="Left" Height="30" Margin="18,539,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label x:Name="lblCuentaDealer" Content="" HorizontalAlignment="Left" Height="61" Margin="112,399,0,0" VerticalAlignment="Top" Width="99" FontSize="24"/>
+        <Label x:Name="lblCuentaPlayer" Content="" HorizontalAlignment="Left" Height="80" Margin="97,495,0,0" VerticalAlignment="Top" Width="114" FontSize="24"/>
+        <Label x:Name="lblNumero" Content="Numero de mazos:" HorizontalAlignment="Left" Height="32" Margin="21,345,0,0" VerticalAlignment="Top" Width="115"/>
+        <TextBox x:Name="txtNumMazos" HorizontalAlignment="Left" Height="32" Margin="141,345,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
+        <Button x:Name="btnPlayerAs_2" Content="As" HorizontalAlignment="Left" Height="75" Margin="88,175,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnPlayerAs_2_Click"/>
+        <Button x:Name="btnPlayer2_2" Content="2" HorizontalAlignment="Left" Height="75" Margin="174,175,0,0" VerticalAlignment="Top" Width="80" FontSize="24" Click="BtnPlayer2_2_Click"/>
+        <Button x:Name="btnPlayer3_2" Content="3" HorizontalAlignment="Left" Height="75" Margin="259,175,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnPlayer3_2_Click"/>
+        <Button x:Name="btnPlayer4_2" Content="4" HorizontalAlignment="Left" Height="75" Margin="344,175,0,0" VerticalAlignment="Top" Width="80" FontSize="24" Click="BtnPlayer4_2_Click"/>
+        <Button x:Name="btnPlayer5_2" Content="5" HorizontalAlignment="Left" Height="75" Margin="429,175,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnPlayer5_2_Click"/>
+        <Button x:Name="btnPlayer6_2" Content="6" HorizontalAlignment="Left" Height="75" Margin="515,175,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnPlayer6_2_Click"/>
+        <Button x:Name="btnPlayer7_2" Content="7" HorizontalAlignment="Left" Height="75" Margin="601,175,0,0" VerticalAlignment="Top" Width="80" FontSize="24" Click="BtnPlayer7_2_Click"/>
+        <Button x:Name="btnPlayer8_2" Content="8" HorizontalAlignment="Left" Height="75" Margin="685,175,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnPlayer8_2_Click"/>
+        <Button x:Name="btnPlayer9_2" Content="9" HorizontalAlignment="Left" Height="75" Margin="771,175,0,0" VerticalAlignment="Top" Width="80" FontSize="24" Click="BtnPlayer9_2_Click"/>
+        <Button x:Name="btnPlayer10_2" Content="10" HorizontalAlignment="Left" Height="75" Margin="856,175,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnPlayer10_2_Click"/>
+        <Label x:Name="lblCuentaPlayer2" Content="" HorizontalAlignment="Left" Height="80" Margin="97,591,0,0" VerticalAlignment="Top" Width="114" FontSize="24"/>
+        <Button x:Name="btnSplit" Content="Dividir mano" HorizontalAlignment="Left" Height="44" Margin="10,611,0,0" VerticalAlignment="Top" Width="79" RenderTransformOrigin="0.513,0.045" Click="BtnSplit_Click"/>
+        <Label x:Name="lblAs" Content="As restantes:" HorizontalAlignment="Left" Height="32" Margin="269,344,0,0" VerticalAlignment="Top" Width="80"/>
+        <Label x:Name="lbl2" Content="2 restantes:" HorizontalAlignment="Left" Height="32" Margin="269,374,0,0" VerticalAlignment="Top" Width="80"/>
+        <Label x:Name="lbl3" Content="3 restantes:" HorizontalAlignment="Left" Height="32" Margin="269,401,0,0" VerticalAlignment="Top" Width="80"/>
+        <Label x:Name="lbl4" Content="4 restantes:" HorizontalAlignment="Left" Height="32" Margin="269,431,0,0" VerticalAlignment="Top" Width="80"/>
+        <Label x:Name="lbl5" Content="5 restantes:" HorizontalAlignment="Left" Height="32" Margin="269,460,0,0" VerticalAlignment="Top" Width="80"/>
+        <Label x:Name="lbl6" Content="6 restantes:" HorizontalAlignment="Left" Height="32" Margin="269,495,0,0" VerticalAlignment="Top" Width="80"/>
+        <Label x:Name="lbl7" Content="7 restantes:" HorizontalAlignment="Left" Height="32" Margin="269,525,0,0" VerticalAlignment="Top" Width="80"/>
+        <Label x:Name="lbl8" Content="8 restantes:" HorizontalAlignment="Left" Height="32" Margin="269,556,0,0" VerticalAlignment="Top" Width="80"/>
+        <Label x:Name="lbl9" Content="9 restantes:" HorizontalAlignment="Left" Height="32" Margin="269,588,0,0" VerticalAlignment="Top" Width="80"/>
+        <Label x:Name="lbl10" Content="10 restantes:" HorizontalAlignment="Left" Height="32" Margin="269,620,0,0" VerticalAlignment="Top" Width="80"/>
+        <Label x:Name="lblAsR" Content="" HorizontalAlignment="Left" Height="32" Margin="353,344,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label x:Name="lbl2R" Content="" HorizontalAlignment="Left" Height="32" Margin="353,376,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label x:Name="lbl3R" Content="" HorizontalAlignment="Left" Height="32" Margin="353,401,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label x:Name="lbl4R" Content="" HorizontalAlignment="Left" Height="32" Margin="353,431,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label x:Name="lbl5R" Content="" HorizontalAlignment="Left" Height="32" Margin="353,460,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label x:Name="lbl6R" Content="" HorizontalAlignment="Left" Height="32" Margin="353,495,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label x:Name="lbl7R" Content="" HorizontalAlignment="Left" Height="32" Margin="353,525,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label x:Name="lbl8R" Content="" HorizontalAlignment="Left" Height="32" Margin="353,556,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label x:Name="lbl9R" Content="" HorizontalAlignment="Left" Height="32" Margin="353,588,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label x:Name="lbl10R" Content="" HorizontalAlignment="Left" Height="32" Margin="353,620,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label x:Name="lblHL" Content="High-Low:" HorizontalAlignment="Left" Height="31" Margin="453,356,0,0" VerticalAlignment="Top" Width="64"/>
+        <Label x:Name="lblHLR" Content="" HorizontalAlignment="Left" Height="31" Margin="521,356,0,0" VerticalAlignment="Top" Width="64"/>
+        <Label x:Name="lblProbBlackjack" Content="Prob. de blackjack" HorizontalAlignment="Left" Height="28" Margin="453,395,0,0" VerticalAlignment="Top" Width="116"/>
+        <Label x:Name="lblProbBlackjack2" Content="en siguiente turno:" HorizontalAlignment="Left" Height="28" Margin="453,423,0,0" VerticalAlignment="Top" Width="116"/>
+        <Label x:Name="lblProbBlackjackR" Content="" HorizontalAlignment="Left" Height="44" Margin="573,401,0,0" VerticalAlignment="Top" Width="84" FontSize="20"/>
+        <Label x:Name="lblProbPasarse" Content="Prob. de que el dealer" HorizontalAlignment="Left" Height="28" Margin="453,464,0,0" VerticalAlignment="Top" Width="132"/>
+        <Label x:Name="lblProbPasarse2" Content="se pase de 21:" HorizontalAlignment="Left" Height="28" Margin="453,492,0,0" VerticalAlignment="Top" Width="132"/>
+        <Label x:Name="lblprobDealer" Content="" HorizontalAlignment="Left" Height="46" Margin="601,464,0,0" VerticalAlignment="Top" Width="112" FontSize="20"/>
+        <Label x:Name="lblProbBlackjackDealer" Content="Prob. de que el dealer" HorizontalAlignment="Left" Height="28" Margin="453,529,0,0" VerticalAlignment="Top" Width="132"/>
+        <Label x:Name="lblProbBlackjackDealer2" Content="saque blackjack:" HorizontalAlignment="Left" Height="28" Margin="453,557,0,0" VerticalAlignment="Top" Width="132"/>
+        <Label x:Name="lblprobDealerBlack" Content="" HorizontalAlignment="Left" Height="46" Margin="601,539,0,0" VerticalAlignment="Top" Width="112" FontSize="20"/>
+        <Button x:Name="btnRonda" Content="Siguiente ronda" HorizontalAlignment="Left" Height="49" Margin="845,612,0,0" VerticalAlignment="Top" Width="92" Click="BtnRonda_Click"/>
+        <Button x:Name="btnInfo" Content="Hecho" HorizontalAlignment="Left" Height="32" Margin="216,345,0,0" VerticalAlignment="Top" Width="38" Click="BtnInfo_Click"/>
+        <Button x:Name="btnShitAs" Content="As" HorizontalAlignment="Left" Height="75" Margin="88,255,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnPlayerAs_2_Click"/>
+        <Button x:Name="btnShit2" Content="2" HorizontalAlignment="Left" Height="75" Margin="174,255,0,0" VerticalAlignment="Top" Width="80" FontSize="24" Click="BtnPlayer2_2_Click"/>
+        <Button x:Name="btnShit3" Content="3" HorizontalAlignment="Left" Height="75" Margin="259,255,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnPlayer3_2_Click"/>
+        <Button x:Name="btnShit4" Content="4" HorizontalAlignment="Left" Height="75" Margin="344,255,0,0" VerticalAlignment="Top" Width="80" FontSize="24" Click="BtnPlayer4_2_Click"/>
+        <Button x:Name="btnShit5" Content="5" HorizontalAlignment="Left" Height="75" Margin="429,255,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnPlayer5_2_Click"/>
+        <Button x:Name="btnShit6" Content="6" HorizontalAlignment="Left" Height="75" Margin="515,255,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnPlayer6_2_Click"/>
+        <Button x:Name="btnShit7" Content="7" HorizontalAlignment="Left" Height="75" Margin="601,255,0,0" VerticalAlignment="Top" Width="80" FontSize="24" Click="BtnPlayer7_2_Click"/>
+        <Button x:Name="btnShit8" Content="8" HorizontalAlignment="Left" Height="75" Margin="685,255,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnPlayer8_2_Click"/>
+        <Button x:Name="btnShit9" Content="9" HorizontalAlignment="Left" Height="75" Margin="771,255,0,0" VerticalAlignment="Top" Width="80" FontSize="24" Click="BtnPlayer9_2_Click"/>
+        <Button x:Name="btnShit10" Content="10" HorizontalAlignment="Left" Height="75" Margin="856,255,0,0" VerticalAlignment="Top" Width="81" FontSize="24" Click="BtnPlayer10_2_Click"/>
+        <Label x:Name="lblProbBlackjackDealer_Copy" Content="Prob. de que el dealer" HorizontalAlignment="Left" Height="28" Margin="453,596,0,0" VerticalAlignment="Top" Width="132"/>
+        <Label x:Name="lblProbBlackjackDealer2_Copy" Content="saque 21:" HorizontalAlignment="Left" Height="28" Margin="453,624,0,0" VerticalAlignment="Top" Width="132"/>
+        <Label x:Name="lblprobDealer21" Content="" HorizontalAlignment="Left" Height="46" Margin="601,606,0,0" VerticalAlignment="Top" Width="112" FontSize="20"/>
+
+    </Grid>
+</Window>

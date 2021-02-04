@@ -1,0 +1,15 @@
+C:\Users\Klithik\source\repos\BlackJack_Calculator_2\BlackJack_Calculator_2\bin\Debug\BlackJack_Calculator_2.exe.config
+C:\Users\Klithik\source\repos\BlackJack_Calculator_2\BlackJack_Calculator_2\bin\Debug\BlackJack_Calculator_2.exe
+C:\Users\Klithik\source\repos\BlackJack_Calculator_2\BlackJack_Calculator_2\bin\Debug\BlackJack_Calculator_2.pdb
+C:\Users\Klithik\source\repos\BlackJack_Calculator_2\BlackJack_Calculator_2\obj\Debug\BlackJack_Calculator_2.csprojAssemblyReference.cache
+C:\Users\Klithik\source\repos\BlackJack_Calculator_2\BlackJack_Calculator_2\obj\Debug\MainWindow.g.cs
+C:\Users\Klithik\source\repos\BlackJack_Calculator_2\BlackJack_Calculator_2\obj\Debug\App.g.cs
+C:\Users\Klithik\source\repos\BlackJack_Calculator_2\BlackJack_Calculator_2\obj\Debug\BlackJack_Calculator_2_MarkupCompile.cache
+C:\Users\Klithik\source\repos\BlackJack_Calculator_2\BlackJack_Calculator_2\obj\Debug\BlackJack_Calculator_2_MarkupCompile.lref
+C:\Users\Klithik\source\repos\BlackJack_Calculator_2\BlackJack_Calculator_2\obj\Debug\MainWindow.baml
+C:\Users\Klithik\source\repos\BlackJack_Calculator_2\BlackJack_Calculator_2\obj\Debug\BlackJack_Calculator_2.g.resources
+C:\Users\Klithik\source\repos\BlackJack_Calculator_2\BlackJack_Calculator_2\obj\Debug\BlackJack_Calculator_2.Properties.Resources.resources
+C:\Users\Klithik\source\repos\BlackJack_Calculator_2\BlackJack_Calculator_2\obj\Debug\BlackJack_Calculator_2.csproj.GenerateResource.cache
+C:\Users\Klithik\source\repos\BlackJack_Calculator_2\BlackJack_Calculator_2\obj\Debug\BlackJack_Calculator_2.csproj.CoreCompileInputs.cache
+C:\Users\Klithik\source\repos\BlackJack_Calculator_2\BlackJack_Calculator_2\obj\Debug\BlackJack_Calculator_2.exe
+C:\Users\Klithik\source\repos\BlackJack_Calculator_2\BlackJack_Calculator_2\obj\Debug\BlackJack_Calculator_2.pdb
